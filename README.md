@@ -1,6 +1,23 @@
 # Hello World App
 
-#SDLC
+### SDLC MODEL : AGILE MODEL
+ <img src="https://d32myzxfxyl12w.cloudfront.net/assets/images/article_images/925d76d668dc5bf47d44a8fc0907f30d1d9c8b1f.png?1557486197"></img>
+- Requirement Analysis
+  - Scaffold Widget
+  - Text Widget
+  - Image.network Widget
+  - Statefull Widget
+  - Stateless Widget
+  - RaisedButton Widget
+- DESIGN 
+  - https://photos.app.goo.gl/HLR7cQF5tunQgY2Y9
+- Development 
+  - FLutter SDK
+- Testing ✔
+- Deployment ✔
+- Review ✔
+
+
 
 ## Getting Started
 
