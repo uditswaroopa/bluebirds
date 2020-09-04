@@ -1,30 +1,30 @@
-# Team Info App
+# PROJECT NAME
+**SDLC MODEL USED**
+	- AGILE SDLC MODEL
 
-### Takes Back!
-- We can take assets folder of any name, but it has to be mentioned in pubspec.yaml
-- If we want to update any data then we call it inside setState() function for statefull Widget
-- In Info.dart line 27 we used MediaQuery.of(context).size.width so that it sets width as width of screen size rather hardcoding
+**DESCRPTION**
+	
+	Add descrption of the project
 
-### SDLC MODEL : AGILE MODEL
- <img src="https://d32myzxfxyl12w.cloudfront.net/assets/images/article_images/925d76d668dc5bf47d44a8fc0907f30d1d9c8b1f.png?1557486197" width = "600" height = "300"></img>
-- ## Requirement Analysis
-  - Scaffold Widget
-  - Text Widget
-  - Image.Assets Widget
-  - Statefull Widget
-  - Stateless Widget
-  - RaisedButton Widget
-  - Card Widget
-  - Container
-  - Icon
-  - Flutter Logo
-  - App Bar
-- ## DESIGN 
-  - ![](lib/image.png)
-- ## Development 
-  - FLutter SDK
-- ## Testing ✔ 
-  - ### 
-- ## Deployment ✔
-- ## Review ✔
+**REQUIREMENT**
 
+ - Scaffold Widget
+ - Stateless Widget
+ - Column Widget
+ - Row Widget
+ - Icon Widget
+ - 
+ **SCREENSHOTS**
+ 
+ <img width="200"  height = "300" src="https://github.com/uditswaroopa/bluebirds/blob/master/screenshots/1.jpg"></img>
+ <img width="200"  height = "300" src="https://github.com/uditswaroopa/bluebirds/blob/master/screenshots/1.jpg"></img>
+
+**EXTERNAL PACKAGE USED**
+
+ - package name
+	reason behind using this package
+ - 
+**TAKE BACK!**
+
+ - Things you have learned from project 
+ - 
