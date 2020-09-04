@@ -7,7 +7,7 @@
 
 **DESCRPTION**
 	
-	Add descrption of the project
+	This app contains details of team members of BlueBirds
 
 **REQUIREMENT**
 
@@ -16,7 +16,14 @@
  - Column Widget
  - Row Widget
  - Icon Widget
- - 
+ - Container 
+ - Card
+ - List
+ - AppBar
+ - Text
+ - Flutter Logo
+
+
  **SCREENSHOTS**
  
  <img width="200"  height = "400" src="https://github.com/uditswaroopa/bluebirds/blob/APP2/screenshots/1.jpg"></img>
@@ -26,11 +33,10 @@
 
 **EXTERNAL PACKAGE USED**
 
- - package name
-	reason behind using this package
- - 
+ - none
+
 **TAKE BACK!**
 
- - Things you have learned from project 
- - 
+ - To add assets folder name could be anything but we have to mention that in 
+ - To pass screen width use MediaQuery.of(context).size.width
 
