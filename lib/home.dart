@@ -1,72 +1,23 @@
-import 'package:bluebirds/location.dart';
-import 'package:bluebirds/title.dart';
+import 'package:bluebirds/info.dart';
 import 'package:flutter/material.dart';
 
-class Home extends StatefulWidget {
-  @override
-  _HomeState createState() => _HomeState();
-}
-
-class _HomeState extends State<Home> {
-  int val = 1;
+class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text(
-          "TEAM BLUE BIRDS",
-          style: TextStyle(
-            fontSize: 20.0,
-            fontFamily: 'aerial',
-            color: Colors.greenAccent[400],
+        backgroundColor: Colors.grey[100],
+        appBar: AppBar(
+          centerTitle: true,
+          title: Text(
+            "BLUEBIRDS",
+            style: TextStyle(
+                fontSize: 20.0,
+                fontFamily: 'aerial',
+                color: Colors.grey[400],
+                fontWeight: FontWeight.w600),
           ),
+          backgroundColor: Colors.grey[850],
         ),
-        backgroundColor: Colors.black54,
-      ),
-      body: Column(
-        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-        children: <Widget>[
-          CircleAvatar(
-            backgroundImage: AssetImage('assets/member$val.jpeg'),
-            radius: 80,
-          ),
-          Status(), //Samir
-          SizedBox(height: 15.0),
-          Text(
-            'UDIT SWAROOPA',
-            style: TextStyle(
-              fontSize: 20.0,
-              fontWeight: FontWeight.w700,
-              color: Colors.green[800],
-            ),
-          ), //Udit
-          Text(
-            'nehab4511@gmail.com',
-            style: TextStyle(
-              fontWeight: FontWeight.w700,
-            ),
-          ),
-          Location(), //Arnab
-          RaisedButton(
-            onPressed: () {
-              setState(() {
-                if (val < 5)
-                  val++;
-                else
-                  val = 1;
-              });
-            },
-            child: Text(
-              'Next',
-              style: TextStyle(color: Colors.white),
-            ),
-            shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(20.0),
-            ),
-            color: Colors.deepPurpleAccent,
-          ),
-        ],
-      ),
-    );
+        body: Info());
   }
 }

@@ -6,12 +6,16 @@ class Location extends StatelessWidget {
     return Row(
       mainAxisAlignment: MainAxisAlignment.center,
       children: <Widget>[
-        Icon(Icons.add_location, size: 20.0),
-        // SizedBox(height: 15.0),
+        Icon(
+          Icons.navigation,
+          size: 20.0,
+          color: Colors.grey[800],
+        ),
+        SizedBox(width: 15.0),
         Text(
           'ASANSOL',
           style: TextStyle(
-            color: Colors.green[800],
+            color: Colors.grey[800],
             fontSize: 20.0,
             letterSpacing: 1.0,
             fontWeight: FontWeight.bold,
