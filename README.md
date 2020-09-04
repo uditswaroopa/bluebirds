@@ -1,4 +1,4 @@
-# PROJECT NAME
+# BlueBird
 
 ### [**DOWNLOAD**](https://drive.google.com/file/d/1bpT1Ra5VqJkhvDnGQ6LNbOuH_8ylqNeu/view?usp=sharing)
 
@@ -6,8 +6,8 @@
 	- AGILE SDLC MODEL
 
 **DESCRPTION**
-	
-	This app contains details of team members of BlueBirds
+
+This app contains details of team members of BlueBirds
 
 **REQUIREMENT**
 
@@ -22,6 +22,7 @@
  - AppBar
  - Text
  - Flutter Logo
+ - RaisedButton
 
 
  **SCREENSHOTS**
