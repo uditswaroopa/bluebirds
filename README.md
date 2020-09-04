@@ -16,8 +16,8 @@
  - 
  **SCREENSHOTS**
  
- <img width="200"  height = "300" src="https://github.com/uditswaroopa/bluebirds/edit/master/screenshots/1.jpg"></img>
- <img width="200"  height = "300" src="https://github.com/uditswaroopa/bluebirds/edit/master/screenshots/1.jpg"></img>
+ <img width="200"  height = "300" src="https://github.com/uditswaroopa/bluebirds/blob/master/screenshots/1.jpg"></img>
+ <img width="200"  height = "300" src="https://github.com/uditswaroopa/bluebirds/blob/master/screenshots/1.jpg"></img>
 
 **EXTERNAL PACKAGE USED**
 
