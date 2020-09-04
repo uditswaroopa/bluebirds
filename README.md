@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # ProjectName
 ## SDLC Model - Agile
  
@@ -33,4 +32,3 @@
 
  - Things you have learned from project 
  - 
->>>>>>> 941c5ead4168b9b146226e68e58824733ff906d2
