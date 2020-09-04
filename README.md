@@ -3,7 +3,8 @@
 	- AGILE SDLC MODEL
 
 **DESCRPTION**
-	Descrption of the project
+	
+	Add descrption of the project
 
 **REQUIREMENT**
 
