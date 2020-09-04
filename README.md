@@ -1,4 +1,7 @@
 # PROJECT NAME
+
+### [**DOWNLOAD**](https://drive.google.com/file/d/1bpT1Ra5VqJkhvDnGQ6LNbOuH_8ylqNeu/view?usp=sharing)
+
 **SDLC MODEL USED**
 	- AGILE SDLC MODEL
 
@@ -16,10 +19,10 @@
  - 
  **SCREENSHOTS**
  
- <img width="200"  height = "300" src="https://github.com/uditswaroopa/bluebirds/blob/APP2/screenshots/1.jpg"></img>
- <img width="200"  height = "300" src="https://github.com/uditswaroopa/bluebirds/blob/APP2/screenshots/2.jpg"></img>
- <img width="200"  height = "300" src="https://github.com/uditswaroopa/bluebirds/blob/APP2/screenshots/3.jpg"></img>
- <img width="200"  height = "450" src="https://github.com/uditswaroopa/bluebirds/blob/APP2/screenshots/4.jpg"></img>
+ <img width="200"  height = "400" src="https://github.com/uditswaroopa/bluebirds/blob/APP2/screenshots/1.jpg"></img>
+ <img width="200"  height = "400" src="https://github.com/uditswaroopa/bluebirds/blob/APP2/screenshots/2.jpg"></img>
+ <img width="200"  height = "400" src="https://github.com/uditswaroopa/bluebirds/blob/APP2/screenshots/3.jpg"></img>
+ <img width="200"  height = "400" src="https://github.com/uditswaroopa/bluebirds/blob/APP2/screenshots/4.jpg"></img>
 
 **EXTERNAL PACKAGE USED**
 
@@ -30,5 +33,4 @@
 
  - Things you have learned from project 
  - 
-**DOWNLOAD**
-[Download APK]()
+
