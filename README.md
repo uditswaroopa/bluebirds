@@ -1,7 +1,6 @@
 # ProjectName
 ## SDLC Model - Agile
- 
-=======
+
 # PROJECT NAME
 **SDLC MODEL USED**
 	- AGILE SDLC MODEL
