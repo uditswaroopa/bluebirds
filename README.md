@@ -1,4 +1,4 @@
-# PROJECT NAME
+# TEAM BLUE BIRDS
 
 ### [**DOWNLOAD**]()
 
@@ -6,8 +6,9 @@
 	- AGILE SDLC MODEL
 
 **DESCRPTION**
-	
-	Add descrption of the project
+
+Here we are a team of four Flutter enthusiasts learning to develop apps using the Flutter framework. You can select different branches we created to see what we have developed, what we are working on, how can you contribute so that we can grow together 😉.
+#KeepFluttering
 
 **REQUIREMENT**
 
@@ -17,12 +18,9 @@
  - Row Widget
  - Icon Widget
  - 
- **SCREENSHOTS**
+ **FLUTTER IS FUTURE!**
  
- <img width="200"  height = "400" src="https://github.com/uditswaroopa/bluebirds/blob/APP2/screenshots/1.jpg"></img>
- <img width="200"  height = "400" src="https://github.com/uditswaroopa/bluebirds/blob/APP2/screenshots/2.jpg"></img>
- <img width="200"  height = "400" src="https://github.com/uditswaroopa/bluebirds/blob/APP2/screenshots/3.jpg"></img>
- <img width="200"  height = "400" src="https://github.com/uditswaroopa/bluebirds/blob/APP2/screenshots/4.jpg"></img>
+ <img src="https://i.ytimg.com/vi/fq4N0hgOWzU/maxresdefault.jpg"></img>
 
 **EXTERNAL PACKAGE USED**
 
