@@ -1,18 +1,39 @@
-# Hello World App
+# HelloWorld App
 
-### SDLC MODEL : AGILE MODEL
- <img src="https://d32myzxfxyl12w.cloudfront.net/assets/images/article_images/925d76d668dc5bf47d44a8fc0907f30d1d9c8b1f.png?1557486197" width = "600" height = "300"></img>
-- ## Requirement Analysis
-  - Scaffold Widget
-  - Text Widget
-  - Image.network Widget
-  - Statefull Widget
-  - Stateless Widget
-  - RaisedButton Widget
-- ## DESIGN 
-  - ![](lib/image.png)
-- ## Development 
-  - FLutter SDK
-- ## Testing ✔
-- ## Deployment ✔
-- ## Review ✔
+### [**DOWNLOAD**](https://drive.google.com/file/d/1bpT1Ra5VqJkhvDnGQ6LNbOuH_8ylqNu/view?usp=sharing)
+
+**SDLC MODEL USED**
+	- AGILE SDLC MODEL
+
+**DESCRPTION**
+
+This is a fairly simple built using Flutter to display Hello World
+
+**REQUIREMENT**
+
+ - Scaffold Widget
+ - Stateless Widget
+ - Column Widget
+ - Icon Widget
+ - AppBar
+ - Text
+ - Image.network
+ - RaisedButton
+
+
+ **SCREENSHOTS**
+ 
+ <img width="200"  height = "400" src="lib/image.png"></img>
+
+**EXTERNAL PACKAGE USED**
+
+ - none
+
+**TAKE BACK!**
+
+ - How to display an image with url
+ - How statefull widget works 
+ - If we want to update anything in UI then we simply call that change inside setState()
+ - 
+
+
