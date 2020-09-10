@@ -40,4 +40,6 @@ This app contains details of team members of BlueBirds
 
  - To add assets folder name could be anything but we have to mention that in 
  - To pass screen width use MediaQuery.of(context).size.width
-
+ - For adding assets editing pubspec.yml is mandatory to make things work!  
+ - Elevation was used
+ - lastly , SizedBox widget was used to set the height and width specified by the parent constraints
