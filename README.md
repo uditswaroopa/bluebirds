@@ -34,6 +34,9 @@ This is a fairly simple built using Flutter to display Hello World
  - How to display an image with url
  - How statefull widget works 
  - If we want to update anything in UI then we simply call that change inside setState()
- - 
+ - How image.Network url works
+ - How string url works
+ - use of splash.Colour widget 
+ - use of setState
 
 
