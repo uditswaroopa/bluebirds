@@ -30,6 +30,6 @@
  - decoration is used for decorating.
  - safeArea: is used to fit the ui in safe area mode.
  - margin: is used to give margin to all side.
- - [LINK]("https://github.com/uditswaroopa/bluebirds/blob/ecd6c4b1257704154f13487297aa22b9f12187ad/lib/button.dart#L14")width: s == '=' ? breadth * 2 + 10 : breadth, this has been used to give the double beadth to '=' sign
+ - [LINK]("https://github.com/uditswaroopa/bluebirds/blob/ecd6c4b1257704154f13487297aa22b9f12187ad/lib/button.dart#L14") width: s == '=' ? breadth * 2 + 10 : breadth, this has been used to give the double beadth to '=' sign
  - color(0xAF202125): used to give custom color.
  
