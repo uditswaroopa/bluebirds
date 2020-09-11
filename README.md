@@ -3,8 +3,10 @@
 	- AGILE SDLC MODEL
 
 **DESCRPTION**
-	
-	Add descrption of the project
+
+*APP3 BRANCH : Scientific Calculator App*
+A simple yet elegant Scientific Calculator App just make those mathematical calculation easier and fun to do! from log to XOR operation, from decimal to Binary to Decimal to Hexadecimal we got you covered with most widely used calculations by programmers. In case you think we misssed something. Do let us know!  
+
 
 **REQUIREMENT**
 
