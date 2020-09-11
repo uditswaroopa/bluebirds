@@ -38,7 +38,7 @@ This app contains details of team members of BlueBirds
 
 **TAKE BACK!**
 
-  -debugShowCheckedModeBanner: false;
+  - [debugShowCheckedModeBanner: false](https://github.com/uditswaroopa/bluebirds/blob/2801a283b389f3af0cfef5e9dc0ab3ddde9504b3/lib/main.dart#L10);
     - it means: "DEBUG" banner in checked mode to indicatethat the app is in checked mode.This is on by default,to turn it off we need to set the constructer argument to false.
  - To add assets folder name could be anything but we have to mention that in like:
   - assets:
