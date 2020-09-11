@@ -27,4 +27,9 @@
 **TAKE BACK!**
 
  - Things you have learned from project 
- - 
+ - decoration is used for decorating.
+ - safeArea: is used to fit the ui in safe area mode.
+ - margin: is used to give margin to all side.
+ - width: s == '=' ? breadth * 2 + 10 : breadth, this has been used to give the double beadth to '=' sign.
+ - color(0Ax202125): used to give custom color.
+ 
