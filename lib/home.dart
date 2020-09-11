@@ -1,5 +1,8 @@
 import 'package:bluebirds/button.dart';
+import 'package:bluebirds/lcd.dart';
+import 'package:bluebirds/rowofbutton.dart';
 import 'package:flutter/material.dart';
+import 'package:bluebirds/model.dart';
 
 class CalcApp extends StatefulWidget {
   @override
@@ -7,25 +10,45 @@ class CalcApp extends StatefulWidget {
 }
 
 class _CalcAppState extends State<CalcApp> {
-  String expression = '';
-  String history = '';
+  Model object = new Model('','');
 
   tap(String x) {
+    if(x == 'e^x')
+      x = 'e^';
+    else if(x == 'MOD')
+      x = '%';
+    else if(x == 'D to B' || x == 'D to O' || x == 'D to H')
+      x = 'Enter decimal number';
+    
     setState(() {
-      expression += x;
+      if(object.expression == 'INCORRECT SYNTAX')
+        object.expression = '';
+      if(object.expression == 'Enter decimal number')
+        object.expression = '';
+      object.expression += x;
+
+      //expression = object.expression;
     });
   }
 
   allclear(String x) {
     setState(() {
-      expression = '';
-      history = '';
+      object.expression = '';
+      object.history = '';
+
+    });
+  }
+
+  evaluate(String x){
+    setState(() {
+      object.history = object.expression + ' = ';
+      object.parsing();
     });
   }
 
   clear(String x) {
     setState(() {
-      expression.substring(0, expression.length - 1);
+      object.expression.substring(0, object.expression.length - 1);
     });
   }
 
@@ -36,42 +59,8 @@ class _CalcAppState extends State<CalcApp> {
       body: Column(
         children: <Widget>[
           Expanded(
-            flex: 2,
-            child: SafeArea(
-              child: Container(
-                decoration: BoxDecoration(
-                  color: Color(0xAFa0a69a),
-                  borderRadius: BorderRadius.circular(7),
-                ),
-                margin: EdgeInsets.all(8),
-                alignment: Alignment.topRight,
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.end,
-                  children: <Widget>[
-                    Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: Text(
-                        history,
-                        style: TextStyle(
-                            fontFamily: 'digital',
-                            fontSize: 18,
-                            fontWeight: FontWeight.w600),
-                      ),
-                    ),
-                    Padding(
-                      padding: const EdgeInsets.fromLTRB(3, 8, 8, 3),
-                      child: Text(
-                        expression,
-                        style: TextStyle(
-                            fontFamily: 'digital',
-                            fontSize: 28,
-                            fontWeight: FontWeight.w600),
-                      ),
-                    ),
-                  ],
-                ),
-              ),
-            ),
+            flex: 3,
+            child: LCD(object),
           ),
           Expanded(
             flex: 7,
@@ -82,70 +71,21 @@ class _CalcAppState extends State<CalcApp> {
                     Button('SHIFT', tap),
                     Button('AC', allclear),
                     Button('C', clear),
-                    Button('AND', tap),
+                    Button('&', tap),
                   ],
                 ),
-                Row(
-                  children: <Widget>[
-                    Button('LOG', tap),
-                    Button('(', tap),
-                    Button(')', tap),
-                    Button('OR', tap),
-                  ],
-                ),
-                Row(
-                  children: <Widget>[
-                    Button('x^2', tap),
-                    Button('x^3', tap),
-                    Button('e^x', tap),
-                    Button('XOR', tap),
-                  ],
-                ),
-                Row(
-                  children: <Widget>[
-                    Button('sin', tap),
-                    Button('cos', tap),
-                    Button('tan', tap),
-                    Button('MOD', tap),
-                  ],
-                ),
-                Row(
-                  children: <Widget>[
-                    Button('D to B', tap),
-                    Button('D to O', tap),
-                    Button('D to H', tap),
-                    Button('×', tap),
-                  ],
-                ),
-                Row(
-                  children: <Widget>[
-                    Button('7', tap),
-                    Button('8', tap),
-                    Button('9', tap),
-                    Button('/', tap),
-                  ],
-                ),
-                Row(
-                  children: <Widget>[
-                    Button('4', tap),
-                    Button('5', tap),
-                    Button('6', tap),
-                    Button('+', tap),
-                  ],
-                ),
-                Row(
-                  children: <Widget>[
-                    Button('1', tap),
-                    Button('2', tap),
-                    Button('3', tap),
-                    Button('-', tap),
-                  ],
-                ),
+                Buttons('log','(',')','OR',tap),
+                Buttons('^','√','e^x','XOR',tap),
+                Buttons('sin','cos','tan','MOD',tap),
+                Buttons('D to B','D to O','D to H','*',tap),
+                Buttons('7','8','9','÷',tap),
+                Buttons('4','5','6','+',tap),
+                Buttons('1','2','3','-',tap),
                 Row(
                   children: <Widget>[
                     Button('0', tap),
                     Button('.', tap),
-                    Button('=', tap),
+                    Button('=', evaluate),
                   ],
                 )
               ],
