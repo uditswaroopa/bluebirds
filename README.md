@@ -12,8 +12,16 @@
  - Stateless Widget
  - Column Widget
  - Row Widget
- - Icon Widget
- - 
+ - Safe Area
+ - Expanded
+ - Container
+ - Statefull
+ - Padding 
+ - Safe Area
+ - Center
+ - Raised Button 
+ - Text
+ 
  **SCREENSHOTS**
  
  <img width="200"  height = "300" src="https://github.com/uditswaroopa/bluebirds/blob/master/screenshots/1.jpg"></img>
