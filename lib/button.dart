@@ -1,17 +1,16 @@
 import 'package:flutter/material.dart';
 
 class Button extends StatelessWidget {
-  final String s;
-  double breadth;
+  final String s; // s = '='
   Button(this.s);
 
 //width = 740 - 16 = 624/4 = 131
   @override
   Widget build(BuildContext context) {
-    breadth = (MediaQuery.of(context).size.width - 45) / 4;
+    double breadth = (MediaQuery.of(context).size.width-45) / 4;
     return Center(
       child: Container(
-          width: s == '=' ? breadth * 2 + 10 : breadth,
+          width: s == '=' ? breadth * 2 + 9 : breadth,
           margin: EdgeInsets.fromLTRB(9, 3, 0, 0),
           child: RaisedButton(
             onPressed: () {},
