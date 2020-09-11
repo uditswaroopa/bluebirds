@@ -27,6 +27,7 @@
 **TAKE BACK!**
 
  - Things you have learned from project 
+ 
 -[debugShowCheckedModeBanner: false ,(https://github.com/uditswaroopa/bluebirds/blob/f49835edeb1adbd77b17256b4afb91ff90f4f6f5/lib/main.dart#L7) was used to remove the debug banner 
   
   -_[LCDState createState() => _LCDState](https://github.com/uditswaroopa/bluebirds/blob/6fdb755051caf207fbb9163def8b2eba42d64855/lib/display.dart#L5) was used to render the properties automatically from the main StatefulWidget
