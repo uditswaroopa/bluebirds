@@ -1,4 +1,4 @@
-# PROJECT NAME
+# Scientific CALC
 **SDLC MODEL USED**
 	- AGILE SDLC MODEL
 
@@ -26,8 +26,7 @@ A simple yet elegant Scientific Calculator App just make those mathematical calc
  
  **SCREENSHOTS**
  
- <img width="200"  height = "300" src="https://github.com/uditswaroopa/bluebirds/blob/master/screenshots/1.jpg"></img>
- <img width="200"  height = "300" src="https://github.com/uditswaroopa/bluebirds/blob/master/screenshots/1.jpg"></img>
+ <img width="300"  height = "533" src="https://github.com/uditswaroopa/bluebirds/blob/APP3/screenshots/ui.jpg"></img>
 
 **EXTERNAL PACKAGE USED**
 
