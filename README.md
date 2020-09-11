@@ -38,5 +38,6 @@ This is a fairly simple built using Flutter to display Hello World
  - How string url works
  - use of splash.Colour widget 
  - use of setState
+ - MaterialApp: this is a very important thing which helps us to introduce many interesting tools such as Navigator or Theme to help develop our app.
 
 
