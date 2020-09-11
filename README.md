@@ -48,4 +48,3 @@ This app contains details of team members of BlueBirds
  - Elevation property is used to give widgets elevation
  - SizedBox widget is used to set the height and width under which in child argument we can pass any widget!
  - Icons.Navigation implies > icon.
- - trial!
