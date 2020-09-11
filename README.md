@@ -43,7 +43,7 @@ This app contains details of team members of BlueBirds
  - To add assets folder name could be anything but we have to mention that in like:
   - assets:
     - assets/
- - To pass screen width use MediaQuery.of(context).size.width
+ - [Screen Width](https://github.com/uditswaroopa/bluebirds/blob/426dfc825045f28db1b43b67e2ee8b1fe1d494c8/lib/info.dart#L27) To pass screen width use MediaQuery.of(context).size.width to determine width of screen
  - For adding assets editing pubspec.yml is mandatory to make things work!  
  - Elevation property is used to give widgets elevation
  - SizedBox widget is used to set the height and width under which in child argument we can pass any widget!
