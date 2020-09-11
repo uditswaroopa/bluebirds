@@ -33,12 +33,12 @@
 
 - [Button](https://github.com/uditswaroopa/bluebirds/blob/6fdb755051caf207fbb9163def8b2eba42d64855/lib/button.dart#L11Buttons)widget was used to specify the number of buttons used in the app from 1-4 in a series
 
-- Flex property for Expanded widget define how much space is allocataed for that Exapnded widget
+- <a href = "https://github.com/uditswaroopa/bluebirds/blob/3875a7a1f35e7dd15bbdc43ceb2ce7873cb2ae9f/lib/wrapper.dart#L14">Flex</a> property for Expanded widget define how much space is allocataed for that Exapnded widget
 
-- Elevation was used 
-- decoration is used for decorating.  
- -  safeArea: is used to fit the ui in safe area mode.
- - margin: is used t o give margin to all side.
- - [width: ](https://github.com/uditswaroopa/bluebirds/blob/ecd6c4b1257704154f13487297aa22b9f12187ad/lib/button.dart#L14)s == '=' ? breadth * 2 + 10 : breadth, this has been used to give the double beadth to '=' sign
- - [Colour](https://github.com/uditswaroopa/bluebirds/blob/6fdb755051caf207fbb9163def8b2eba42d64855/lib/wrapper.dart#L10color(0xAF202125)): was used to give custom color according to users choice.
+- <a href = "https://github.com/uditswaroopa/bluebirds/blob/3875a7a1f35e7dd15bbdc43ceb2ce7873cb2ae9f/lib/button.dart#L21">Elevation</a> We used RaisedButton widget to give elevation 
+- <a href = "https://github.com/uditswaroopa/bluebirds/blob/3875a7a1f35e7dd15bbdc43ceb2ce7873cb2ae9f/lib/display.dart#L13">Cotainer Decoration</a> to give color, curved corners to a container we use decoration argument of ContainerWidget 
+ - <a href = "https://github.com/uditswaroopa/bluebirds/blob/3875a7a1f35e7dd15bbdc43ceb2ce7873cb2ae9f/lib/display.dart#L11">safeArea</a> Safe Area Widget is used to render the UI where OS widget don't render like the status bar and bottom navigation bar.
+ - <a href = "https://github.com/uditswaroopa/bluebirds/blob/3875a7a1f35e7dd15bbdc43ceb2ce7873cb2ae9f/lib/display.dart#L17">margin</a> Margin is used to give margin wrt parent widget
+ - [width](https://github.com/uditswaroopa/bluebirds/blob/ecd6c4b1257704154f13487297aa22b9f12187ad/lib/button.dart#L14)s == '=' ? breadth * 2 + 10 : breadth, this has been used to give the double beadth to '=' sign
+ - [Color](https://github.com/uditswaroopa/bluebirds/blob/6fdb755051caf207fbb9163def8b2eba42d64855/lib/wrapper.dart#L10color(0xAF202125)): we can use custom color using Color class where we pass hex value of color with 0xFF representing opacity
  
