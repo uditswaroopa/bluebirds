@@ -1,11 +1,16 @@
+import 'package:bluebirds/model.dart';
 import 'package:flutter/material.dart';
 
 class LCD extends StatefulWidget {
+  final Model object;
+  LCD(this.object);
   @override
-  _LCDState createState() => _LCDState();
+  _LCDState createState() => _LCDState(object);
 }
 
 class _LCDState extends State<LCD> {
+  Model object;
+  _LCDState(this.object);
   @override
   Widget build(BuildContext context) {
     return SafeArea(
@@ -20,7 +25,7 @@ class _LCDState extends State<LCD> {
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: Text(
-                '6 % 3 + (4 * 2) - 64 / 2',
+                object.history,
                 style: TextStyle(
                     fontFamily: 'digital',
                     fontSize: 18,
@@ -30,7 +35,7 @@ class _LCDState extends State<LCD> {
             Padding(
               padding: const EdgeInsets.fromLTRB(3, 8, 8, 3),
               child: Text(
-                '27.091',
+                object.expression,
                 style: TextStyle(
                     fontFamily: 'digital',
                     fontSize: 28,
