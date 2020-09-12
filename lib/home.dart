@@ -9,7 +9,7 @@ class CalcApp extends StatefulWidget {
 }
 
 class _CalcAppState extends State<CalcApp> {
-  Model object = new Model('', ''); //creating object of class expression
+  Model object = new Model('', ''); //creating object of class Model
 
   tap(String x) {
     setState(() {
