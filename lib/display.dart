@@ -3,9 +3,9 @@ import 'package:flutter/material.dart';
 
 class LCD extends StatefulWidget {
   final Model object;
-  LCD(this.object);
+  LCD(this.object); //object received and initialized
   @override
-  _LCDState createState() => _LCDState(object);
+  _LCDState createState() => _LCDState(object); //object passed to _LCDSate class
 }
 
 class _LCDState extends State<LCD> {

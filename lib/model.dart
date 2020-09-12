@@ -3,7 +3,5 @@ class Model{
   String history;
 
   Model(this.expression,this.history);
-
   
-
 }
