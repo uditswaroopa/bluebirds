@@ -42,7 +42,7 @@ A simple yet elegant Scientific Calculator App just make those mathematical calc
 
 - [Button](https://github.com/uditswaroopa/bluebirds/blob/6fdb755051caf207fbb9163def8b2eba42d64855/lib/button.dart#L11Buttons)widget was used to specify the number of buttons used in the app from 1-4 in a series
 
-- <a href = "https://github.com/uditswaroopa/bluebirds/blob/3875a7a1f35e7dd15bbdc43ceb2ce7873cb2ae9f/lib/wrapper.dart#L14">Flex</a> property for Expanded widget define how much space is allocataed for that Exapnded widget
+- <a href = "https://github.com/uditswaroopa/bluebirds/blob/3875a7a1f35e7dd15bbdc43ceb2ce7873cb2ae9f/lib/wrapper.dart#L14">Flex</a> property for Expanded widget define how much space is allocataed for that Expanded widget
 
 - <a href = "https://github.com/uditswaroopa/bluebirds/blob/3875a7a1f35e7dd15bbdc43ceb2ce7873cb2ae9f/lib/button.dart#L21">Elevation</a> We used RaisedButton widget to give elevation 
 - <a href = "https://github.com/uditswaroopa/bluebirds/blob/3875a7a1f35e7dd15bbdc43ceb2ce7873cb2ae9f/lib/display.dart#L13">Cotainer Decoration</a> to give color, curved corners to a container we use decoration argument of ContainerWidget 
