@@ -5,7 +5,7 @@ class LCD extends StatefulWidget {
   final Model object;
   LCD(this.object); //object received and initialized
   @override
-  _LCDState createState() => _LCDState(object); //object passed to _LCDSate class
+  _LCDState createState() => _LCDState(object); //object passed to _LCDState class
 }
 
 class _LCDState extends State<LCD> {
