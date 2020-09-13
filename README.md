@@ -55,5 +55,6 @@ A simple yet elegant Scientific Calculator App just make those mathematical calc
 - An object was created of the class 'Model' was also created
 - 'tap' function was added 
 - Then 'allclear' function was added next with a specified value to make the function work
+- To pass the data in stateful widget we first need to pass data to the widget itself , [for eg : LCD()] and then the statefullwidget pass the to it’s state widget[_LCD<State>]
    
    
