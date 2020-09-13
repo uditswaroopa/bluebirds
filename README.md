@@ -51,4 +51,9 @@ A simple yet elegant Scientific Calculator App just make those mathematical calc
  - [width](https://github.com/uditswaroopa/bluebirds/blob/ecd6c4b1257704154f13487297aa22b9f12187ad/lib/button.dart#L14)s == '=' ? breadth * 2 + 10 : breadth, this has been used to give the double beadth to '=' sign
  - [Color](https://github.com/uditswaroopa/bluebirds/blob/6fdb755051caf207fbb9163def8b2eba42d64855/lib/wrapper.dart#L10color(0xAF202125)): we can use custom color using Color class where we pass hex value of color with 0xFF representing opacity
  - <a href ="https://github.com/uditswaroopa/bluebirds/blob/8e3beacf2e054e0221b232b28263a0d1cc20fe30/lib/button.dart#L15">Raised Button</a> Raised Button is used in Flutter to have a button with some elevation
-
+- A new class named 'Model' was created
+- An object was created of the class 'Model' was also created
+- 'tap' function was added 
+- Then 'allclear' function was added next with a specified value to make the function work
+   
+   
