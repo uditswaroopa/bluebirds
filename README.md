@@ -56,5 +56,7 @@ A simple yet elegant Scientific Calculator App just make those mathematical calc
 - 'tap' function was added 
 - Then 'allclear' function was added next with a specified value to make the function work
 - To pass the data in stateful widget we first need to pass data to the widget itself , [for eg : LCD()] and then the statefullwidget pass the to it’s state widget[_LCD<State>]
-   
+- tap()- User feels that button is pressed by using the tap() method. 
+- allClear()- this method is used to clear the screen.
+- class Model is used to understand the compilar that there is a expression and history.
    
