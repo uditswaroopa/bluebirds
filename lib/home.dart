@@ -12,9 +12,19 @@ class _CalcAppState extends State<CalcApp> {
   Model object = new Model('', ''); //creating object of class Model
 
   tap(String x) {
-    if(x == 'e'){
+    if(x == 'e')
       x = 'e^';
+
+    if(x == 'D to B' || x == 'D to O' || x == 'D to H'){
+      if(x == 'D to B')
+        object.baseConversion(2);  
+      else if(x == 'D to O')
+        object.baseConversion(8);  
+      else if(x == 'D to H')
+        object.baseConversion(16);  
+      x = '';
     }
+
     setState(() {
       if(object.expression == 'Incorrect Syntax')
         object.expression = '';
@@ -55,7 +65,7 @@ class _CalcAppState extends State<CalcApp> {
                   children: <Widget>[
                     Button('SHIFT', tap),
                     Button('AC', allclear),
-                    Button('C', tap),
+                    Button('', tap),
                     Button('AND', tap),
                   ],
                 ),

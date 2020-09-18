@@ -23,7 +23,7 @@ class Button extends StatelessWidget {
           ),
           elevation: 4.0,
           child: Text(s),
-          color: Colors.grey,
+          color: s == '=' ? Colors.orange[800] : Colors.grey,
         ),
       ),
     );

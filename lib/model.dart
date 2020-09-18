@@ -1,13 +1,14 @@
 import 'package:math_expressions/math_expressions.dart';
 
 class Model{
-  String expression; //2 + (4 * 5) + 34 - 63 
+  dynamic expression; //2 + (4 * 5) + 34 - 63 
   String history;
   
   Model(this.expression,this.history);
   
   void equalsTo(){
     expression = expression.replaceAll('MOD','%');
+    expression = expression.replaceAll('LOG','log10');
     print(expression);
     try{
       Parser p = Parser();
@@ -19,5 +20,11 @@ class Model{
       expression = 'Incorrect Syntax';
       history =''; 
     }
+  }
+
+  void baseConversion(int base){
+    print('demo');
+    history = expression;
+    expression = int.parse(expression).toRadixString(base);
   }
 }
