@@ -12,7 +12,12 @@ class _CalcAppState extends State<CalcApp> {
   Model object = new Model('', ''); //creating object of class Model
 
   tap(String x) {
+    if(x == 'e'){
+      x = 'e^';
+    }
     setState(() {
+      if(object.expression == 'Incorrect Syntax')
+        object.expression = '';
       object.expression += x;
     });
   }
@@ -21,6 +26,13 @@ class _CalcAppState extends State<CalcApp> {
     setState(() {
       object.expression = '';
       object.history = '';
+    });
+  }
+
+  equal(String x){
+    setState(() {
+      object.history = object.expression;
+      object.equalsTo();
     });
   }
 
@@ -59,9 +71,9 @@ class _CalcAppState extends State<CalcApp> {
                 //represent column3
                 Row(
                   children: <Widget>[
-                    Button('x^2',tap),
-                    Button('x^3',tap),
-                    Button('e^x',tap),
+                    Button('^',tap),
+                    Button('',tap),
+                    Button('e',tap),
                     Button('XOR',tap),
                   ],
                 ),
@@ -115,7 +127,7 @@ class _CalcAppState extends State<CalcApp> {
                   children: <Widget>[
                     Button('0', tap),
                     Button('.', tap),
-                    Button('=', tap),
+                    Button('=', equal),
                   ],
                 )
               ],
